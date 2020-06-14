@@ -1,0 +1,49 @@
+student_outputs
+generated_data
+
+# Object files
+obj/*
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects
+*.so
+*.so.*
+
+# Executables
+*.out
+bin/*
+server
+client
+.deps
+
+#ide stuff
+tags
+Tags
+*.swp
+
+# other
+r*hs # vtune output
+.deps # makefile temps
+
+#Cmake
+/src/CMakeCache.txt
+/src/CMakeFiles
+/src/build
+/src/Makefile
+
+#database data files
+/data
+
+#test files
+/tests/gen_tests
+/tests/test_outputs
+
+/benchmarks/
+/venv/
