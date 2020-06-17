@@ -47,3 +47,4 @@ with `cmake .` then build with `make`. This will place the binaries in src/build
 - [ ] Fix logging, make it consistent and more readable. 
 - [ ] Handle more edge cases with readable error codes 
 - [ ] Fork and convert to c++
+- [ ] Add support for variable length data types / strings. Possibly storing offset (and length?) of the string in a strings file in the columns. 
