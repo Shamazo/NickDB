@@ -47,3 +47,4 @@ r*hs # vtune output
 
 /benchmarks/
 /venv/
+/src/cmake_install.cmake
