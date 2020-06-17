@@ -48,3 +48,6 @@ with `cmake .` then build with `make`. This will place the binaries in src/build
 - [ ] Handle more edge cases with readable error codes 
 - [ ] Fork and convert to c++
 - [ ] Add support for variable length data types / strings. Possibly storing offset (and length?) of the string in a strings file in the columns. 
+- [ ] Write an SQL front end to parse SQL and produce a query plan
+- [ ] write a basic optimizer
+- [ ] Get the overall codebase into a shape where we can run existing benchmarks such as TPC-H
