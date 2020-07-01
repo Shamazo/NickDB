@@ -268,8 +268,6 @@ char* execute_select(DbOperator* query, ClientContext* client_context){
     //todo, actually decide when to scan and when to use index on column
     if (query->operator_fields.select_operator.src->column_type == COLUMN && INDEXES){
         num_rows = *(query->operator_fields.select_operator.src->column_pointer.column->num_rows);
-
-
         switch(column->index_type) {
             case NONE:
                 result = execute_scan_select(query, min_val, max_val);
